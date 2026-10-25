@@ -1,0 +1,10 @@
+{
+  "name": "tiny-suspend-agent",
+  "version": "1.0.0",
+  "description": "Tiny TypeScript agent that suspends at every tool call. History lives in a store as a string, results resume it, later events arrive as synthetic tool calls, and unsigned or unknown events are dropped. Fake model. No API key. No network.",
+  "main": "suspend.ts",
+  "scripts": { "start": "tsx suspend.ts", "typecheck": "tsc --noEmit" },
+  "author": "Bobby Hall Jr",
+  "license": "MIT",
+  "devDependencies": { "@types/node": "^22.10.0", "tsx": "^4.19.2", "typescript": "^5.7.2" }
+}

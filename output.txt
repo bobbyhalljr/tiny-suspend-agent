@@ -1,0 +1,13 @@
+tiny-suspend-agent demo (fake model, fake tools)
+
+09:00 START  dispatched run_build (call_1) and suspended
+09:00 IDLE   the whole agent is one string: 135 bytes
+09:20 RESULT call_1: dispatched subscribe_prs (call_2) and suspended
+09:21 RESULT call_2: said "Waiting." and went idle
+11:02 EVENT call_2: said "Noted: PR #42 opened" and went idle
+11:03 DROP bad signature
+11:04 DROP unknown call call_9
+
+history: 9 messages, 672 bytes
+injected calls: 1
+dispatched: run_build, subscribe_prs

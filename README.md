@@ -15,3 +15,5 @@ npx tsx suspend.ts
 ```
 
 MIT, by Bobby Hall Jr.
+
+Read the write-up on Dev.to: https://dev.to/bobbyhalljr/aws-open-sourced-infinity-lets-build-a-tiny-agent-that-sleeps-between-tool-calls-in-typescript-3mja
